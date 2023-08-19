@@ -1,21 +1,14 @@
 footer{
-    background-color: #A05196;
+    background-color: nth($colores, 5);
     text-decoration: none;
-    color: #D6D6D8;
-    font-size: 15px;
+    color: nth($colores, 3);
+    font-size: nth($font-size, 3);
     font-family: 'Bebas Neue', sans-serif;
     padding: 10px;
     div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center)
         h3{
             padding: 20px;
-        }
-        a{
-            img{
-
-            }
         }
         }
     }

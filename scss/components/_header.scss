@@ -1,13 +1,9 @@
 header{
-    background-color: #D6D6D8;
-    position:relative;
-    z-index: 1;    background-color: #D6D6D8;
+    background-color: nth($colores, 3);
     position:relative;
     z-index: 1;
     div{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex (flex, space-between, center)
         .logoweb1{
             order: 2;
         }
@@ -30,19 +26,17 @@ header{
         }
     }
     nav{
-        background-color: #A05196;
+        background-color:nth($colores, 5);
         ul{
+            @include flex (flex, center, center)
             list-style: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             width: 100%;
             li{
                 margin: 10px;
                 a{
                 text-decoration: none;
-                color: #D6D6D8;
-                font-size: 20px;
+                color: nth($colores, 3);
+                font-size: nth($font-size, 4);
                 font-family: 'Bebas Neue', sans-serif;
                 }
             }

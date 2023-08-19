@@ -7,9 +7,6 @@
 header {
   background-color: #D6D6D8;
   position: relative;
-  z-index: 1;
-  background-color: #D6D6D8;
-  position: relative;
   z-index: 1; }
   header div {
     display: flex;
@@ -32,17 +29,17 @@ header {
   header nav {
     background-color: #A05196; }
     header nav ul {
-      list-style: none;
       display: flex;
       justify-content: center;
       align-items: center;
+      list-style: none;
       width: 100%; }
       header nav ul li {
         margin: 10px; }
         header nav ul li a {
           text-decoration: none;
           color: #D6D6D8;
-          font-size: 20px;
+          font-size: 20 px;
           font-family: 'Bebas Neue', sans-serif; }
     header nav .container-fluid {
       justify-content: center;
@@ -67,14 +64,14 @@ main {
     text-decoration: none;
     background-color: #05C0D3;
     color: #D6D6D8;
-    font-size: 20px;
+    font-size: 20 px;
     font-family: 'Bebas Neue', sans-serif;
     padding: 10px; }
   main .productos {
-    width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center; }
+    align-items: center;
+    width: 100%; }
     main .productos div {
       width: 200px;
       height: 330px;
@@ -91,7 +88,7 @@ main {
       main .productos div h3 {
         text-decoration: none;
         color: black;
-        font-size: 12px;
+        font-size: 12 px;
         font-family: 'Bebas Neue', sans-serif;
         margin-bottom: 20px; }
       main .productos div a {
@@ -100,7 +97,7 @@ main {
         background-color: #A05196;
         text-decoration: none;
         color: #D6D6D8;
-        font-size: 15px;
+        font-size: 15 px;
         font-family: 'Bebas Neue', sans-serif; }
   main .grid-contenedor1 {
     display: grid;
@@ -116,7 +113,7 @@ main {
       text-align: center;
       text-decoration: none;
       color: black;
-      font-size: 15px;
+      font-size: 15 px;
       font-family: 'Bebas Neue', sans-serif;
       padding: 10px; }
     main .grid-contacto .formuario {
@@ -150,7 +147,7 @@ main {
       main .grid-contenedor .grid-item h3 {
         text-decoration: none;
         color: black;
-        font-size: 12px;
+        font-size: 12 px;
         font-family: 'Bebas Neue', sans-serif;
         padding: 10px; }
       main .grid-contenedor .grid-item a {
@@ -160,14 +157,14 @@ main {
         background-color: #A05196;
         text-decoration: none;
         color: #D6D6D8;
-        font-size: 15px;
+        font-size: 15 px;
         font-family: 'Bebas Neue', sans-serif; }
 
 footer {
   background-color: #A05196;
   text-decoration: none;
   color: #D6D6D8;
-  font-size: 15px;
+  font-size: 15 px;
   font-family: 'Bebas Neue', sans-serif;
   padding: 10px; }
   footer div {

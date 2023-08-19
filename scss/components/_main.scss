@@ -1,9 +1,7 @@
 main{
-    background-color: #D6D6D8;
+    background-color: nth($colores, 3);
     .novedades{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flex (flex, center, center)
         div{
             div{
                 img{
@@ -21,22 +19,20 @@ main{
     h2{ 
         text-align: center;
         text-decoration: none;
-        background-color: #05C0D3;
-        color: #D6D6D8;
-        font-size: 20px;
+        background-color: nth($colores, 4);
+        color: nth($colores, 3);
+        font-size: nth($font-size, 4);
         font-family: 'Bebas Neue', sans-serif;
         padding: 10px;
     }
     .productos{
+        @include flex (flex, space-around, center)
         width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         div{
             width: 200px;
             height: 330px;
             text-align: center;
-            background-color: beige;
+            background-color: nth($colores, 2);
             margin: 20px;
             box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
             -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
@@ -48,18 +44,18 @@ main{
             }
             h3{
                 text-decoration: none;
-                color: black;
-                font-size: 12px;
+                color: nth($colores, 1);
+                font-size: nth($font-size, 2);
                 font-family: 'Bebas Neue', sans-serif;
                 margin-bottom: 20px;
             }
             a{
                 padding: 10px;
                 border-radius: 15px;
-                background-color: #A05196;
+                background-color: nth($colores, 5);
                 text-decoration: none;
-                color: #D6D6D8;
-                font-size: 15px;
+                color: nth($colores, 3);
+                font-size: nth($font-size, 3);
                 font-family: 'Bebas Neue', sans-serif;
             }
         }
@@ -80,8 +76,8 @@ main{
         h3{
             text-align: center;
             text-decoration: none;
-            color: black;
-            font-size: 15px;
+            color:nth($colores, 1);
+            font-size: nth($font-size, 3);
             font-family: 'Bebas Neue', sans-serif;
             padding: 10px;
         }
@@ -105,7 +101,7 @@ main{
             width: 250px;
             height: 350px;
             text-align: center;
-            background-color: beige;
+            background-color:nth($colores, 2);
             margin: 10px;
             border: 20px;
             box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
@@ -119,8 +115,8 @@ main{
             }
             h3{
                 text-decoration: none;
-                color: black;
-                font-size: 12px;
+                color: nth($colores, 1);
+                font-size: nth($font-size, 2);
                 font-family: 'Bebas Neue', sans-serif;
                 padding: 10px;
             }
@@ -128,10 +124,10 @@ main{
                 padding: 10px;
                 border-radius: 15px;
                 margin: 10px;
-                background-color: #A05196;
+                background-color: nth($colores, 5);
                 text-decoration: none;
-                color: #D6D6D8;
-                font-size: 15px;
+                color: nth($colores, 3);
+                font-size: nth($font-size, 3);
                 font-family: 'Bebas Neue', sans-serif;
             
             }
