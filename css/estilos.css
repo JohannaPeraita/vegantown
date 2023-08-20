@@ -37,10 +37,10 @@ header {
       header nav ul li {
         margin: 10px; }
         header nav ul li a {
-          text-decoration: none;
+          font-size: 20px;
           color: #D6D6D8;
-          font-size: 20 px;
-          font-family: 'Bebas Neue', sans-serif; }
+          font-family: "Bebas Neue" sans-serif;
+          text-decoration: none; }
     header nav .container-fluid {
       justify-content: center;
       padding: 5px; }
@@ -52,20 +52,20 @@ main {
     justify-content: center;
     align-items: center; }
     main .novedades div div img {
-      margin-top: 15px;
-      margin-bottom: 15px;
-      width: 1000px;
-      height: 519px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 1130px;
+      height: 639px;
       box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
       -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
       -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63); }
   main h2 {
+    font-size: 20px;
+    color: #D6D6D8;
+    font-family: "Bebas Neue" sans-serif;
     text-align: center;
     text-decoration: none;
     background-color: #05C0D3;
-    color: #D6D6D8;
-    font-size: 20 px;
-    font-family: 'Bebas Neue', sans-serif;
     padding: 10px; }
   main .productos {
     display: flex;
@@ -86,19 +86,19 @@ main {
         width: 200px;
         height: 200px; }
       main .productos div h3 {
-        text-decoration: none;
+        font-size: 15px;
         color: black;
-        font-size: 12 px;
-        font-family: 'Bebas Neue', sans-serif;
-        margin-bottom: 20px; }
+        font-family: "Bebas Neue" sans-serif;
+        text-decoration: none;
+        margin-bottom: 20px, 10px, 10px, 25px; }
       main .productos div a {
+        font-size: 15px;
+        color: #D6D6D8;
+        font-family: "Bebas Neue" sans-serif;
         padding: 10px;
         border-radius: 15px;
         background-color: #A05196;
-        text-decoration: none;
-        color: #D6D6D8;
-        font-size: 15 px;
-        font-family: 'Bebas Neue', sans-serif; }
+        text-decoration: none; }
   main .grid-contenedor1 {
     display: grid;
     width: 100%;
@@ -110,11 +110,11 @@ main {
   main .grid-contacto {
     grid-area: contacto; }
     main .grid-contacto h3 {
+      font-size: 15px;
+      color: black;
+      font-family: "Bebas Neue" sans-serif;
       text-align: center;
       text-decoration: none;
-      color: black;
-      font-size: 15 px;
-      font-family: 'Bebas Neue', sans-serif;
       padding: 10px; }
     main .grid-contacto .formuario {
       width: 100%;
@@ -145,33 +145,33 @@ main {
         height: 250px;
         object-fit: cover; }
       main .grid-contenedor .grid-item h3 {
-        text-decoration: none;
+        font-size: 15px;
         color: black;
-        font-size: 12 px;
-        font-family: 'Bebas Neue', sans-serif;
+        font-family: "Bebas Neue" sans-serif;
+        text-decoration: none;
         padding: 10px; }
       main .grid-contenedor .grid-item a {
+        font-size: 15px;
+        color: #D6D6D8;
+        font-family: "Bebas Neue" sans-serif;
         padding: 10px;
         border-radius: 15px;
         margin: 10px;
         background-color: #A05196;
-        text-decoration: none;
-        color: #D6D6D8;
-        font-size: 15 px;
-        font-family: 'Bebas Neue', sans-serif; }
+        text-decoration: none; }
 
 footer {
   background-color: #A05196;
   text-decoration: none;
-  color: #D6D6D8;
-  font-size: 15 px;
-  font-family: 'Bebas Neue', sans-serif;
   padding: 10px; }
   footer div {
     display: flex;
     justify-content: center;
     align-items: center; }
     footer div h3 {
+      font-size: 20px;
+      color: 3;
+      font-family: "Bebas Neue" sans-serif;
       padding: 20px; }
 
 @media screen and (max-width: 1200px) {
@@ -180,7 +180,9 @@ footer {
   main .grid-contenedor .grid-item {
     width: 300px;
     height: 350px;
-    margin: 10px; } }
+    margin: 10px; }
+  main .grid-contenedor .grid-item img {
+    height: 230px; } }
 
 @media screen and (max-width: 1010px) {
   main .novedades div div img {
@@ -271,9 +273,11 @@ footer {
     margin-bottom: 7px;
     width: 130px;
     height: 130px; }
+  main .productos div h3 {
+    font-size: 10px; }
   main .productos div a {
     padding: 10px;
-    font-size: 12px; } }
+    font-size: 10px; } }
 
 @media screen and (max-width: 740px) {
   main .grid-contenedor {
@@ -323,7 +327,11 @@ footer {
 @media screen and (max-width: 590px) {
   main .grid-contenedor .grid-item {
     width: 200px;
-    height: 350px; } }
+    height: 350px; }
+  main .productos div h3 {
+    font-size: 15px; }
+  main .productos div a {
+    font-size: 15px; } }
 
 @media screen and (max-width: 514px) {
   main .novedades div div img {
@@ -374,6 +382,11 @@ footer {
     margin-bottom: 7px;
     width: 130px;
     height: 130px; }
+  main .productos div h3 {
+    font-size: 10px; }
+  main .productos div a {
+    padding: 10px;
+    font-size: 10px; }
   header div .carrito .logocarrito {
     width: 40px;
     height: 40px; }

@@ -34,10 +34,8 @@ header{
             li{
                 margin: 10px;
                 a{
+                @include fuente (20px, #D6D6D8, $font-family)
                 text-decoration: none;
-                color: nth($colores, 3);
-                font-size: nth($font-size, 4);
-                font-family: 'Bebas Neue', sans-serif;
                 }
             }
         }

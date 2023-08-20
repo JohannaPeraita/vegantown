@@ -7,6 +7,9 @@
         height: 350px;
         margin: 10px;
     }
+    main .grid-contenedor .grid-item img {
+        height: 230px ;
+    }
 }
 @media screen and (max-width:1010px) {
     main .novedades div div img {
@@ -130,10 +133,13 @@
         width: 130px;
         height: 130px;
     }
+    main .productos div h3{
+        font-size: 10px;
+    }
 
     main .productos div a{
         padding: 10px;
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 740px) {
@@ -208,6 +214,14 @@
         width: 200px;
         height: 350px;
     }
+    main .productos div h3{
+        font-size: 15px;
+    }
+
+    main .productos div a{
+        font-size: 15px;
+    }
+
 }
 @media screen and (max-width:514px) {
     main .novedades div div img {
@@ -271,6 +285,14 @@
         margin-bottom: 7px;
         width: 130px;
         height: 130px;
+    }
+    main .productos div h3{
+        font-size: 10px;
+    }
+
+    main .productos div a{
+        padding: 10px;
+        font-size: 10px;
     }
     header div .carrito .logocarrito {
         width: 40px;

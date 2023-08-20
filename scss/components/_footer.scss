@@ -1,13 +1,11 @@
 footer{
     background-color: nth($colores, 5);
     text-decoration: none;
-    color: nth($colores, 3);
-    font-size: nth($font-size, 3);
-    font-family: 'Bebas Neue', sans-serif;
     padding: 10px;
     div{
         @include flex (flex, center, center)
         h3{
+            @include fuente (20px, 3, $font-family)
             padding: 20px;
         }
         }

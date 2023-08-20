@@ -6,15 +6,19 @@ beige,
 #05C0D3,
 #A05196;
 
-$font-size:
-10 px,
-12 px,
-15 px,
-20 px;
+$font-family:
+'Bebas Neue' sans-serif;
+
 
 //**------- Mixin ------**//
 @mixin flex ($flex, $justify, $aling){
     display: $flex;
     justify-content: $justify;
     align-items: $aling;
+}
+
+@mixin fuente ($font-size,$color,$font-family){
+    font-size: $font-size;
+    color: $color;
+    font-family: $font-family;
 }

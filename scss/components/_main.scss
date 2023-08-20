@@ -5,10 +5,10 @@ main{
         div{
             div{
                 img{
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    width: 1000px;
-                    height: 519px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    width: 1130px;
+                    height: 639px;
                     box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
                     -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
                     -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
@@ -17,12 +17,10 @@ main{
         }
     }    
     h2{ 
+        @include fuente (20px, #D6D6D8, $font-family)
         text-align: center;
         text-decoration: none;
         background-color: nth($colores, 4);
-        color: nth($colores, 3);
-        font-size: nth($font-size, 4);
-        font-family: 'Bebas Neue', sans-serif;
         padding: 10px;
     }
     .productos{
@@ -43,20 +41,16 @@ main{
                 height: 200px;
             }
             h3{
+                @include fuente (15px, black, $font-family)
                 text-decoration: none;
-                color: nth($colores, 1);
-                font-size: nth($font-size, 2);
-                font-family: 'Bebas Neue', sans-serif;
-                margin-bottom: 20px;
+                margin-bottom: 20px, 10px, 10px, 25px;
             }
             a{
+                @include fuente (15px, #D6D6D8, $font-family)
                 padding: 10px;
                 border-radius: 15px;
                 background-color: nth($colores, 5);
                 text-decoration: none;
-                color: nth($colores, 3);
-                font-size: nth($font-size, 3);
-                font-family: 'Bebas Neue', sans-serif;
             }
         }
 
@@ -74,11 +68,9 @@ main{
     .grid-contacto{
         grid-area: contacto;    
         h3{
+            @include fuente (15px, black, $font-family)
             text-align: center;
             text-decoration: none;
-            color:nth($colores, 1);
-            font-size: nth($font-size, 3);
-            font-family: 'Bebas Neue', sans-serif;
             padding: 10px;
         }
         .formuario{
@@ -114,22 +106,17 @@ main{
                 object-fit: cover;
             }
             h3{
+                @include fuente (15px, black, $font-family)
                 text-decoration: none;
-                color: nth($colores, 1);
-                font-size: nth($font-size, 2);
-                font-family: 'Bebas Neue', sans-serif;
                 padding: 10px;
             }
             a{
+                @include fuente (15px, #D6D6D8, $font-family)
                 padding: 10px;
                 border-radius: 15px;
                 margin: 10px;
                 background-color: nth($colores, 5);
-                text-decoration: none;
-                color: nth($colores, 3);
-                font-size: nth($font-size, 3);
-                font-family: 'Bebas Neue', sans-serif;
-            
+                text-decoration: none;            
             }
         }
     }
