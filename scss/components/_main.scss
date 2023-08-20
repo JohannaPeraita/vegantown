@@ -32,9 +32,12 @@ main{
             text-align: center;
             background-color: nth($colores, 2);
             margin: 20px;
-            box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
-            -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
-            -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+            transition: 1s;
+                &:hover{
+                transform: scale(1.05);
+                box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+                -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+                -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);}
             img{
                 margin-bottom: 20px;
                 width: 200px;
@@ -50,7 +53,10 @@ main{
                 padding: 10px;
                 border-radius: 15px;
                 background-color: nth($colores, 5);
-                text-decoration: none;
+                text-decoration: none;          
+                &:hover{
+                    background-color: nth($colores,4);
+                }         
             }
         }
 
@@ -96,9 +102,12 @@ main{
             background-color:nth($colores, 2);
             margin: 10px;
             border: 20px;
-            box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
-            -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
-            -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+            transition: 1s;
+                &:hover{
+                transform: scale(1.05);
+                box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+                -webkit-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);
+                -moz-box-shadow: -1px 4px 6px -2px rgba(0, 0, 0, 0.63);}
             img{
                 display: grid;
                 width: 100%;
@@ -116,7 +125,10 @@ main{
                 border-radius: 15px;
                 margin: 10px;
                 background-color: nth($colores, 5);
-                text-decoration: none;            
+                text-decoration: none;
+                &:hover{
+                    background-color: nth($colores,4);
+                }       
             }
         }
     }
