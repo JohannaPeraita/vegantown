@@ -16,8 +16,15 @@ main{
                 }
         }
     }    
-    h2{ 
+    h1{ 
         @include fuente (20px, #D6D6D8, $font-family)
+        text-align: center;
+        text-decoration: none;
+        background-color: nth($colores, 4);
+        padding: 10px;
+    }
+    h2{ 
+        @include fuente (18px, #D6D6D8, $font-family)
         text-align: center;
         text-decoration: none;
         background-color: nth($colores, 4);
