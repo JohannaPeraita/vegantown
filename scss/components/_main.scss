@@ -76,9 +76,13 @@ main{
         grid-template-areas: "mapa contacto";
         .grid-mapa{
             grid-area: mapa;
+            .googlemaps{
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            
         }
-    }
-    .grid-contacto{
+        .grid-contacto{
         grid-area: contacto;    
         h3{
             @include fuente (15px, black, $font-family)
@@ -87,10 +91,20 @@ main{
             padding: 10px;
         }
         .formuario{
-            width: 100%;
-            height: auto;
-            padding: 10px;
+            margin-right: 20px;
             }
+        .boton{
+                @include fuente (15px, #D6D6D8, $font-family)
+                padding: 10px;
+                margin: 15px;
+                border-radius: 15px;
+                background-color: nth($colores, 5);
+                text-decoration: none;
+                &:hover{
+                    background-color: nth($colores,4);
+                }       
+            }
+        }
         
     }
     .grid-contenedor{
@@ -141,5 +155,6 @@ main{
     }
     .registro{
         padding: 25px;
+        margin: 20px 0px 0px 20px;
     }
 }

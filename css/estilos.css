@@ -18,14 +18,14 @@ header {
       order: 1;
       margin: 15px; }
       header div .usuario .logousuario {
-        width: 50px;
-        height: 50px; }
+        width: 45px;
+        height: 45px; }
     header div .carrito {
       order: 3;
       margin: 15px; }
       header div .carrito .logocarrito {
-        width: 50px;
-        height: 50px; }
+        width: 45px;
+        height: 45px; }
   header nav {
     background-color: #A05196; }
     header nav ul {
@@ -120,19 +120,31 @@ main {
     grid-template-areas: "mapa contacto"; }
     main .grid-contenedor1 .grid-mapa {
       grid-area: mapa; }
-  main .grid-contacto {
-    grid-area: contacto; }
-    main .grid-contacto h3 {
-      font-size: 15px;
-      color: black;
-      font-family: "Bebas Neue" sans-serif;
-      text-align: center;
-      text-decoration: none;
-      padding: 10px; }
-    main .grid-contacto .formuario {
-      width: 100%;
-      height: auto;
-      padding: 10px; }
+      main .grid-contenedor1 .grid-mapa .googlemaps {
+        margin-left: 20px;
+        margin-right: 20px; }
+    main .grid-contenedor1 .grid-contacto {
+      grid-area: contacto; }
+      main .grid-contenedor1 .grid-contacto h3 {
+        font-size: 15px;
+        color: black;
+        font-family: "Bebas Neue" sans-serif;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px; }
+      main .grid-contenedor1 .grid-contacto .formuario {
+        margin-right: 20px; }
+      main .grid-contenedor1 .grid-contacto .boton {
+        font-size: 15px;
+        color: #D6D6D8;
+        font-family: "Bebas Neue" sans-serif;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 15px;
+        background-color: #A05196;
+        text-decoration: none; }
+        main .grid-contenedor1 .grid-contacto .boton:hover {
+          background-color: #05C0D3; }
   main .grid-contenedor {
     display: grid;
     width: 100%;
@@ -178,7 +190,8 @@ main {
         main .grid-contenedor .grid-item a:hover {
           background-color: #05C0D3; }
   main .registro {
-    padding: 25px; }
+    padding: 25px;
+    margin: 20px 0px 0px 20px; }
 
 footer {
   background-color: #A05196;
@@ -382,11 +395,11 @@ footer {
     width: 371px;
     height: 199px; }
   header div .carrito .logocarrito {
-    width: 45px;
-    height: 45px; }
+    width: 43px;
+    height: 43px; }
   header div .usuario .logousuario {
-    width: 45px;
-    height: 45px; } }
+    width: 43px;
+    height: 43px; } }
 
 @media screen and (max-width: 396px) {
   header div .logoweb1 {

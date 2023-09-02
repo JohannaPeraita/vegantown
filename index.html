@@ -90,7 +90,7 @@
         <section class="grid-contenedor1">
             <div class="grid-mapa">
                 <h2>Donde encontrarnos</h2>
-                <iframe
+                <iframe class="googlemaps"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0849506427367!2d-58.560341084768964!3d-34.652557480446895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cb45ca20d5%3A0x302f4f1e0a41d2e0!2sVegan%20Town!5e0!3m2!1ses!2sar!4v1688846594288!5m2!1ses!2sar"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -99,20 +99,17 @@
                 <h2>Escribinos</h2>
                 <h3>Trabajamos para brindarte el mejor Súper Vegano Online</h3>
                 <h3>Dejanos tu mensaje y nos pondremos en contacto</h3>
-                <div class="formulario" action="/my-handling-form-page" method="post">
-                    <div>
-                        <label for="name">Nombre:</label>
-                        <input class="nombre" type="text" id="name" name="user_name" />
+                <div class="formulario">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
                     </div>
-                    <div>
-                        <label for="mail">Correo electrónico:</label>
-                        <input class="email" type="email" id="mail" name="user_email" />
-                    </div>
-                    <div>
-                        <label for="msg">Mensaje:</label>
-                        <textarea class="mensaje" id="msg" name="user_message"></textarea>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Deja tu mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                 </div>
+                <a href="" class="boton">Enviar Mensaje</a>
         </section>
     </main>
     <footer>
