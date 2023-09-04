@@ -1,6 +1,7 @@
 @media screen and (max-width:1200px) {
     main .grid-contenedor {
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 15px;
     }
     main .grid-contenedor .grid-item{
         width: 300px;
@@ -9,6 +10,15 @@
     }
     main .grid-contenedor .grid-item img {
         height: 225px ;
+    }
+}
+@media screen and (max-width:1044px) {
+    main .grid-contenedor .grid-item{
+        width: 250px;
+        height: 350px;
+    }
+    main .grid-contenedor {
+        margin-left: 25px;
     }
 }
 @media screen and (max-width:1010px) {
@@ -29,13 +39,11 @@
         width: 200px;
         height: 200px;
     }
-}
-@media screen and (max-width:1044px) {
-    main .grid-contenedor .grid-item{
-        width: 250px;
-        height: 350px;
+    main .grid-contenedor {
+        margin-left: 5px;
     }
 }
+
 @media screen and (max-width:930px) {
     main .productos div {
         width: 180px;
