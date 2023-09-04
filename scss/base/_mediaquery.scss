@@ -1,7 +1,6 @@
 @media screen and (max-width:1200px) {
     main .grid-contenedor {
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 15px;
     }
     main .grid-contenedor .grid-item{
         width: 300px;
@@ -17,8 +16,10 @@
         width: 250px;
         height: 350px;
     }
-    main .grid-contenedor {
-        margin-left: 25px;
+}
+@media screen and (max-width:1031px) {
+    main .grid-contenedor .grid-item {
+        margin-left: 35px;
     }
 }
 @media screen and (max-width:1010px) {
@@ -39,8 +40,10 @@
         width: 200px;
         height: 200px;
     }
-    main .grid-contenedor {
-        margin-left: 5px;
+}
+@media screen and (max-width:945px) {
+    main .grid-contenedor .grid-item {
+        margin-left: 25px;
     }
 }
 
@@ -65,6 +68,7 @@
         height: 420px;
     }
 }
+
 @media screen and (max-width: 890px) {
     main .grid-contenedor .grid-item{
         width: 250px;
@@ -80,6 +84,11 @@
         "contacto";
     }
 }
+@media screen and (max-width:873px) {
+    main .grid-contenedor .grid-item {
+        margin-left: 15px;
+    }
+}
 
 @media screen and (max-width:860px) {
     main .productos div {
@@ -93,15 +102,20 @@
         height: 150px;
     }
 }
+@media screen and (max-width:847px) {
+    main .grid-contenedor .grid-item {
+        margin-left: 10px;
+    }
+}
 @media screen and (max-width: 839px) {
     main .grid-contenedor .grid-item{
         width: 200px;
         height: 350px;
-        margin: 10px;
+        margin-left: 20px;
     }
     main .grid-contenedor .grid-item h3{
         padding: 2px;
-    }
+    }    
 }
 @media screen and (max-width:820px) {
     main .novedades div div img {
@@ -109,6 +123,12 @@
         margin-bottom: 10px;
         width: 729px;
         height: 378px;
+    }
+}
+
+@media screen and (max-width:757px) {
+    main .grid-contenedor .grid-item {
+        margin-left: 5px;
     }
 }
 
@@ -153,11 +173,12 @@
 }
 @media screen and (max-width: 740px) {
     main .grid-contenedor {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);     
     }
     main .grid-contenedor .grid-item{
         width: 250px;
         height: 350px;
+        margin-left: 35px;
     }
 }
 @media screen and (max-width:673px) {
@@ -191,6 +212,11 @@
         height: 120px;
     }
 }
+@media screen and (max-width:659px) {
+    main .grid-contenedor .grid-item{
+        margin-left: 30px;
+    }
+}
 @media screen and (max-width:600px) {
     main .novedades div div img {
         margin-top: 10px;
@@ -222,6 +248,7 @@
     main .grid-contenedor .grid-item{
         width: 200px;
         height: 350px;
+
     }
     main .productos div h3{
         font-size: 15px;
@@ -245,6 +272,7 @@
     main .grid-contenedor .grid-item{
         width: 350px;
         height: 350px;
+        margin-left: 55px;
     }
 }
 @media screen and (max-width:474px) {
@@ -262,6 +290,7 @@
         height: 150px;
     }
 }
+
 @media screen and (max-width:428px) {
     main .novedades div div img{
         width: 371px;
@@ -274,6 +303,9 @@
     header div .usuario .logousuario{
         width: 43px;
         height: 43px;
+    }
+    main .grid-contenedor .grid-item{
+        margin-left: 35px;
     }
 }
 
@@ -312,6 +344,11 @@
         height: 40px;
     }
 }
+@media screen and (max-width:397px) {
+    main .grid-contenedor .grid-item{
+        margin-left: 15px;
+    }
+}
 @media screen and (max-width:350px) {
     main .productos {
         flex-direction: column;
@@ -342,5 +379,8 @@
     }
     main .grid-contenedor1 .grid-mapa {
         display: none;
+    }
+    main .grid-contenedor .grid-item{
+        margin-left: 10px;
     }
 }
